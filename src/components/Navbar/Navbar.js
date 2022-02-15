@@ -1,30 +1,28 @@
-import { React, useState } from 'react';
-import './Navbar.css';
+import { React } from 'react';
+import { Nav, Navbar, Container } from 'react-bootstrap';
+import './NavBar.css';
 
-const Navbar = () => {
-	const [isMobile, setIsMobile] = useState(false);
-
+const NavBar = () => {
 	return (
-		<div className='navbar'>
-			<h3 className='logo'>Nico Picotto</h3>
-			<ul
-				className={isMobile ? 'nav-links-mobile' : 'nav-links'}
-				onClick={() => setIsMobile(false)}
-			>
-				<li className='nav-items'>About</li>
-				<li className='nav-items'>Journey</li>
-				<li className='nav-items'>Proyects</li>
-				<li className='nav-items'>Contact</li>
-			</ul>
-			<button className='burger' onClick={() => setIsMobile(!isMobile)}>
-				{isMobile ? (
-					<i className='fas fa-times'></i>
-				) : (
-					<i className='fas fa-bars'></i>
-				)}
-			</button>
+		<div className='navBarContainer'>
+			<Navbar expand='lg'>
+				<Container fluid>
+					<Navbar.Brand href='#' className='logo'>
+						Nico Picotto
+					</Navbar.Brand>
+					<Navbar.Toggle aria-controls='navbarScroll' />
+					<Navbar.Collapse id='navbarScroll'>
+						<Nav className='me-auto my-2 my-lg-0' navbarScroll>
+							<Nav.Link href='/'>About</Nav.Link>
+							<Nav.Link href='/'>Journey</Nav.Link>
+							<Nav.Link href='/'>Proyects</Nav.Link>
+							<Nav.Link href='/'>Contact</Nav.Link>
+						</Nav>
+					</Navbar.Collapse>
+				</Container>
+			</Navbar>
 		</div>
 	);
 };
 
-export default Navbar;
+export default NavBar;
