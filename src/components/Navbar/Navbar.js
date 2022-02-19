@@ -14,8 +14,8 @@ const NavBar = () => {
 					<Navbar.Toggle aria-controls='navbarScroll' />
 					<Navbar.Collapse id='navbarScroll'>
 						<Nav className='me-auto my-2 my-lg-0' navbarScroll>
-							<Nav.Link href='/'>About</Nav.Link>
-							<Nav.Link href='/'>Technologies</Nav.Link>
+							<Nav.Link href='#about'>About</Nav.Link>
+							<Nav.Link href='#technologies'>Technologies</Nav.Link>
 							<Nav.Link href='/'>Proyects</Nav.Link>
 							<Nav.Link href='/'>Contact</Nav.Link>
 						</Nav>

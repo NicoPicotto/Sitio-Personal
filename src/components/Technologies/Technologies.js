@@ -18,7 +18,7 @@ import './Technologies.css';
 
 const Technologies = () => {
 	return (
-		<div className='techContainer'>
+		<div className='techContainer' id='technologies'>
 			<div className='techContent'>
 				<h3 className='techText'>
 					Here are some of the technologies that I work with
@@ -26,44 +26,44 @@ const Technologies = () => {
 				<div className='iconsTech'>
 					<div className='col'>
 						<li>
-							<SiAdobe color="#f2e205"/> Adobe Suite
+							<SiAdobe color='#f2e205' /> Adobe Suite
 						</li>
 						<li>
-							<SiAdobeillustrator color="#f2e205"/> Illustrator
+							<SiAdobeillustrator color='#f2e205' /> Illustrator
 						</li>
 						<li>
-							<SiAdobephotoshop color="#f2e205"/> Photoshop
+							<SiAdobephotoshop color='#f2e205' /> Photoshop
 						</li>
 						<li>
-							<SiAdobexd color="#f2e205"/> Xd
-						</li>
-					</div>
-					<div className='col'>
-						<li>
-							<SiHtml5 color="#f2e205"/> HTML5
-						</li>
-						<li>
-							<SiCss3 color="#f2e205"/> CSS3
-						</li>
-						<li>
-							<SiSass color="#f2e205"/> SASS
-						</li>
-						<li>
-							<SiBootstrap color="#f2e205"/> Bootstrap
+							<SiAdobexd color='#f2e205' /> Xd
 						</li>
 					</div>
 					<div className='col'>
 						<li>
-							<SiJavascript color="#f2e205"/> Javascript
+							<SiHtml5 color='#f2e205' /> HTML5
 						</li>
 						<li>
-							<SiReact color="#f2e205"/> ReactJs
+							<SiCss3 color='#f2e205' /> CSS3
 						</li>
 						<li>
-							<SiReactrouter color="#f2e205"/> React Router
+							<SiSass color='#f2e205' /> SASS
 						</li>
 						<li>
-							<SiRedux color="#f2e205"/> Redux
+							<SiBootstrap color='#f2e205' /> Bootstrap
+						</li>
+					</div>
+					<div className='col'>
+						<li>
+							<SiJavascript color='#f2e205' /> Javascript
+						</li>
+						<li>
+							<SiReact color='#f2e205' /> ReactJs
+						</li>
+						<li>
+							<SiReactrouter color='#f2e205' /> React Router
+						</li>
+						<li>
+							<SiRedux color='#f2e205' /> Redux
 						</li>
 					</div>
 				</div>

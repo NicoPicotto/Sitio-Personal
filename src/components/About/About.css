@@ -5,6 +5,10 @@
 	justify-content: center;
 }
 
+.aboutContainer show {
+	opacity: 1;
+}
+
 .aboutText {
 	display: flex;
 	flex-direction: column;

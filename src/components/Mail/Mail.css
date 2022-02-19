@@ -1,0 +1,21 @@
+.mailContainer {
+	position: fixed;
+	right: 0em;
+	bottom: 7em;
+	transform: rotate(90deg);
+}
+
+.mail {
+	display: flex;
+	line-height: 0;
+	margin-bottom: 3em;
+	font-size: 1em;
+	color: rgb(162, 165, 168);
+	font-family: 'Roboto Mono', monospace;
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+}
+
+.mail:hover {
+	color: #f2e205 !important;
+}
