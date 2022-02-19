@@ -1,34 +1,38 @@
-.aboutContainer {
+.techContainer {
 	display: flex;
+	margin-top: 5em;
 	height: 100vh;
 	align-items: center;
 	justify-content: center;
 }
 
-.aboutText {
+.techContent {
 	display: flex;
 	flex-direction: column;
 	height: fit-content;
 }
 
-.aboutHeader {
+.techText {
 	display: flex;
 	color: rgb(162, 165, 168);
 	font-family: 'Roboto Mono', monospace;
 	font-size: 1.5em;
+	margin-bottom: 1em;
 }
 
-.aboutName {
-	color: #f2e205 !important;
-	font-family: 'Biryani', sans-serif;
-	font-size: 8em;
-	margin-top: 0.2em;
-}
-
-.aboutFooter {
+.iconsTech {
 	display: flex;
-	color: rgb(162, 165, 168);
+	align-items: flex-start;
+	font-size: 1em;
+	list-style-type: none !important;
 	font-family: 'Roboto Mono', monospace;
-	font-size: 1.5em;
-	line-height: 0;
+}
+
+.col {
+	align-items: center;
+}
+
+.col li {
+	width: fit-content;
+	padding: 0;
 }

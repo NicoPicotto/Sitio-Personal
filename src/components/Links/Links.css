@@ -1,0 +1,24 @@
+.iconsContainer {
+	position: fixed;
+	left: 1em;
+	bottom: 0em;
+}
+
+ul {
+	display: flex;
+	flex-direction: column;
+	list-style-type: none !important;
+	cursor: pointer;
+}
+
+li {
+	cursor: pointer;
+	color: rgb(162, 165, 168);
+	margin-bottom: 1em;
+	font-size: 1.2em;
+	transition: 0.3s ease-in-out;
+}
+
+li:hover {
+	color: #f2e205 !important;
+}
