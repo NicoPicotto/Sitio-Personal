@@ -1,0 +1,76 @@
+.proyectsContainer {
+	display: flex;
+	margin-top: 5em;
+	height: 100vh;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.cardContainer {
+	display: flex;
+}
+
+.cardTextContainer {
+	width: fit-content;
+}
+
+.cardImg {
+	border-radius: 0;
+	padding: 0.7em 0.7em 0 0.7em;
+}
+
+.proyectText {
+	display: flex;
+	width: fit-content;
+	padding: 0.2em;
+	color: #181818;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 1.5em;
+	background-color: #f2e205;
+	font-weight: 500;
+	white-space: pre;
+}
+
+.card {
+	width: 24em !important;
+	padding: 0;
+	margin: 1em;
+	border: 1px solid #f2e205 !important;
+	background-color: transparent;
+	border-radius: 0%;
+}
+
+.cardTitle {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 1.3em;
+	color: #f2e205;
+}
+
+.cardText {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 1em;
+	color: rgb(162, 165, 168);
+}
+
+.cardFooter {
+	color: #181818 !important;
+	background-color: #f2e205;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 0.9em;
+	font-weight: 600;
+    border-radius: 0 !important;
+}
+
+.cardFooter a {
+	text-decoration: none !important;
+	color: #181818 !important;
+}
+
+.btnProyects {
+	margin-top: 2em;
+	background-color: #f2e205;
+	font-family: 'Roboto Mono', monospace;
+	color: #181818 !important;
+	border-style: none !important;
+}

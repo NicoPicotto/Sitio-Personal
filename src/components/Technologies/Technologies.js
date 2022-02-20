@@ -21,7 +21,7 @@ const Technologies = () => {
 		<div className='techContainer' id='technologies'>
 			<div className='techContent'>
 				<h3 className='techText'>
-					Here are some of the technologies that I work with
+					Here are some of the technologies that I work with.
 				</h3>
 				<div className='iconsTech'>
 					<div className='col'>

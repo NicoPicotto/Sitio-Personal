@@ -14,10 +14,13 @@
 
 .techText {
 	display: flex;
-	color: rgb(162, 165, 168);
+	padding: 0.2em;
+	color: #181818;
 	font-family: 'Roboto Mono', monospace;
 	font-size: 1.5em;
+	background-color: #f2e205;
 	margin-bottom: 1em;
+	font-weight: 500;
 }
 
 .iconsTech {

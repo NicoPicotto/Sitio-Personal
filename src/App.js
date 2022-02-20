@@ -5,6 +5,7 @@ import Mail from "./components/Mail/Mail"
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Technologies from './components/Technologies/Technologies';
+import Proyects from './components/Proyects/Proyects';
 
 function App() {
 	return (
@@ -12,6 +13,7 @@ function App() {
 			<NavBar />
 			<About />
 			<Technologies />
+			<Proyects />
 			<Links />
 			<Mail />
 		</div>

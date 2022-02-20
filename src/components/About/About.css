@@ -36,3 +36,27 @@
 	font-size: 1.5em;
 	line-height: 0;
 }
+
+@media (max-width: 700px) {
+	.aboutContainer {
+		justify-content: center;
+		align-items: center;
+		width: 100% !important;
+	}
+
+	.aboutText{
+		width: fit-content;
+	}
+
+	.aboutHeader{
+		font-size: 1em;
+	}
+
+	.aboutName{
+		font-size: 6em;
+	}
+
+	.aboutFooter{
+		font-size: 1em;
+	}
+}

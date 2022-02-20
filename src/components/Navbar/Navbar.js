@@ -6,7 +6,7 @@ import './NavBar.css';
 const NavBar = () => {
 	return (
 		<div className='navBarContainer'>
-			<Navbar expand='lg'>
+			<Navbar expand='xxl'>
 				<Container fluid>
 					<Navbar.Brand href='#' className='logo'>
 						<img className='logoNP' src={img1} atl='logo' />
@@ -16,7 +16,7 @@ const NavBar = () => {
 						<Nav className='me-auto my-2 my-lg-0' navbarScroll>
 							<Nav.Link href='#about'>About</Nav.Link>
 							<Nav.Link href='#technologies'>Technologies</Nav.Link>
-							<Nav.Link href='/'>Proyects</Nav.Link>
+							<Nav.Link href='#proyects'>Proyects</Nav.Link>
 							<Nav.Link href='/'>Contact</Nav.Link>
 						</Nav>
 					</Navbar.Collapse>
