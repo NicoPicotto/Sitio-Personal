@@ -1,0 +1,13 @@
+.footerContainer{
+    display: flex;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.footerText{
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(162, 165, 168);
+    font-size: 1em;
+}

@@ -11,8 +11,7 @@ import {
 	SiBootstrap,
 	SiJavascript,
 	SiReactrouter,
-	SiRedux,
-	SiGithub,
+	SiRedux
 } from 'react-icons/si';
 import './Technologies.css';
 

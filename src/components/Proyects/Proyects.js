@@ -132,8 +132,6 @@ const Proyects = () => {
 					</Card.Footer>
 				</Card>
 			</CardGroup>
-            <a href='https://github.com/NicoPicotto'
-								target='_blank'><button className='btnProyects'> See more my code</button></a>
 		</div>
 	);
 };
