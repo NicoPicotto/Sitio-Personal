@@ -4,7 +4,7 @@
 	position: fixed;
 	justify-content: space-between;
 	top: 0;
-	width: 100%;
+	width: 100vw;
 }
 
 .logoNP {
@@ -35,4 +35,17 @@
 .navbar-toggler-collapsed:focus {
 	box-shadow: 0 !important;
 	border: none !important;
+}
+
+@media (max-width: 800px) {
+	.nav-link {
+		background-color: #f2e205;
+		text-align: center;
+		color: #181818 !important;
+		margin: 0 !important;
+	}
+
+	.nav-link:hover {
+		color: #181818 !important;
+	}
 }

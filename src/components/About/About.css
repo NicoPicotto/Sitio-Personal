@@ -37,26 +37,28 @@
 	line-height: 0;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
 	.aboutContainer {
+		text-align: center;
 		justify-content: center;
-		align-items: center;
-		width: 100% !important;
 	}
 
-	.aboutText{
-		width: fit-content;
+	.aboutText {
+		display: flex;
+		
 	}
 
-	.aboutHeader{
-		font-size: 1em;
+	.aboutHeader {
+		font-size: 0.8em;
+		justify-content: center;
 	}
 
-	.aboutName{
-		font-size: 6em;
+	.aboutName {
+		font-size: 4em;
 	}
 
-	.aboutFooter{
-		font-size: 1em;
+	.aboutFooter {
+		font-size: 0.8em;
+		justify-content: center;
 	}
 }

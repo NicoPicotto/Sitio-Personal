@@ -19,3 +19,9 @@
 .mail:hover {
 	color: #f2e205 !important;
 }
+
+@media (max-width: 800px) {
+	.mailContainer{
+		display: none;
+	}
+}

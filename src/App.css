@@ -16,3 +16,10 @@ body {
 		background-position: 0% 50%;
 	}
 }
+
+@media (max-width: 800px) {
+	body {
+		align-items: center;
+		justify-content: center;
+	}
+}
