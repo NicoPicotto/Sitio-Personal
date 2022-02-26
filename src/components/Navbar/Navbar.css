@@ -37,7 +37,7 @@
 	border: none !important;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1400px) {
 	.nav-link {
 		background-color: #f2e205;
 		text-align: center;

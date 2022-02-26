@@ -1,6 +1,6 @@
 .mailContainer {
 	position: fixed;
-	right: 0em;
+	right: -1em;
 	bottom: 7em;
 	transform: rotate(90deg);
 }
@@ -20,7 +20,18 @@
 	color: #f2e205 !important;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
+	.mailContainer{
+		right: -1.5em;
+		bottom: 6em;
+	}
+
+	.mail{
+		font-size: 0.6em;
+	}
+}
+
+@media (max-width: 700px){
 	.mailContainer{
 		display: none;
 	}

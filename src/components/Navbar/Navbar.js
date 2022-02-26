@@ -6,7 +6,7 @@ import './NavBar.css';
 const NavBar = () => {
 	return (
 		<div className='navBarContainer'>
-			<Navbar expand='xxl'>
+			<Navbar collapseOnSelect expand='xxl'>
 				<Container fluid>
 					<Navbar.Brand href='#' className='logo'>
 						<img className='logoNP' src={img1} atl='logo' />
