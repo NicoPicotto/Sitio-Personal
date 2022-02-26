@@ -23,15 +23,14 @@ li:hover {
 	color: #f2e205 !important;
 }
 
-
 @media (max-width: 1000px) {
-	.iconsContainer{
+	.iconsContainer {
 		left: 0em;
 	}
 }
 
-@media (max-width: 700px){
-	.iconsContainer{
+@media (max-width: 700px) {
+	.iconsContainer {
 		display: none;
 	}
 }

@@ -4,7 +4,9 @@ import './Mail.css';
 const Mail = () => {
 	return (
 		<div className='mailContainer'>
-			<h4 className='mail'>picottonico@gmail.com</h4>
+			<a href='mailto:picottonico@gmail.com' className='mailTo'>
+				<h4 className='mail'>picottonico@gmail.com</h4>
+			</a>
 		</div>
 	);
 };

@@ -6,12 +6,13 @@
 	min-height: 100vh;
 	align-items: center;
 	justify-content: center;
+	width: 100vw;
 }
 
 .formInside {
 	display: flex;
 	flex-direction: column;
-	width: 40%;
+	width: 50vw;
 	align-items: left;
 	justify-content: center;
 }
@@ -22,7 +23,7 @@
 	padding: 0.2em;
 	color: #181818;
 	font-family: 'Roboto Mono', monospace;
-	font-size: 1.5em;
+	font-size: 1.3vw;
 	background-color: #f2e205;
 	font-weight: 500;
 }
@@ -35,33 +36,75 @@
 	margin-top: 1em;
 	background-color: transparent;
 	color: #f2e205;
-    border-radius: 0;
+	font-size: 1.1vw;
+	border-radius: 0;
 	outline: none;
 	border: 1px solid rgb(162, 165, 168) !important;
 }
 
 .inputs:focus {
 	background-color: transparent !important;
-    border: 1px solid #f2e205 !important;
-    color: #f2e205;
-    outline: 0 !important;
-    box-shadow: none !important;
+	border: 1px solid #f2e205 !important;
+	color: #f2e205;
+	outline: 0 !important;
+	box-shadow: none !important;
 }
 
-.submit{
-    display: flex;
-    width: fit-content;
-    margin: 0 !important;
-    border-radius: 0;
-    font-family: 'Roboto Mono', monospace;
-    background-color: rgb(162, 165, 168);
-    border: none;
-    color: #181818;
-    transition: 0.4s;
-    box-shadow: inset 0 0 0 0 #f2e205;
+.submit {
+	display: flex;
+	font-size: 1.1vw;
+	width: fit-content;
+	margin: 0 !important;
+	border-radius: 0;
+	font-family: 'Roboto Mono', monospace;
+	background-color: rgb(162, 165, 168);
+	border: none;
+	color: #181818;
+	box-shadow: inset 0 0 0 0 #f2e205;
 }
 
-.submit:hover{
-    color: #181818;
-    box-shadow: inset 200px 0 0 0 #f2e205;
+.submit:hover {
+	color: #181818;
+	box-shadow: inset 500px 0 0 0 #f2e205;
+	background-color: rgb(162, 165, 168);
+}
+
+.submit:focus {
+	color: #181818;
+	box-shadow: inset 500px 0 0 0 #f2e205;
+	background-color: rgb(162, 165, 168);
+}
+
+@media (max-width: 1000px) {
+	.formInside {
+		width: 65vw;
+	}
+
+	.formTitle {
+		font-size: 2vw;
+	}
+	.inputs {
+		font-size: 1.6vw;
+	}
+
+	.submit {
+		font-size: 1.6vw;
+	}
+}
+
+@media (max-width: 700px) {
+	.formInside {
+		width: 70vw;
+	}
+
+	.formTitle {
+		font-size: 4vw;
+	}
+	.inputs {
+		font-size: 3vw;
+	}
+
+	.submit {
+		font-size: 3vw;
+	}
 }

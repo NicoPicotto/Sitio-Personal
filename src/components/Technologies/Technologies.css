@@ -1,6 +1,6 @@
 .techContainer {
 	display: flex;
-    margin-bottom: 3em;
+	margin-bottom: 3em;
 	min-height: 100vh;
 	align-items: center;
 	justify-content: center;
@@ -41,31 +41,29 @@
 }
 
 @media (max-width: 1000px) {
-
 	.techContent {
 		width: 65vw;
 	}
 
-	.techText{
-		font-size: 2vw
+	.techText {
+		font-size: 2vw;
 	}
 
-	.iconsTech{
+	.iconsTech {
 		font-size: 1.7vw;
 	}
 }
 
 @media (max-width: 700px) {
-
 	.techContent {
 		width: 70vw;
 	}
 
-	.techText{
-		font-size: 3.5vw
+	.techText {
+		font-size: 3.5vw;
 	}
 
-	.iconsTech{
+	.iconsTech {
 		flex-direction: column;
 		font-size: 2.6vw;
 		align-items: left;

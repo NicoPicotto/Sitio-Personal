@@ -16,23 +16,27 @@
 	transition: 0.3s ease-in-out;
 }
 
+.mailTo {
+	text-decoration: none;
+}
+
 .mail:hover {
 	color: #f2e205 !important;
 }
 
 @media (max-width: 1000px) {
-	.mailContainer{
+	.mailContainer {
 		right: -1.5em;
 		bottom: 6em;
 	}
 
-	.mail{
+	.mail {
 		font-size: 0.6em;
 	}
 }
 
-@media (max-width: 700px){
-	.mailContainer{
+@media (max-width: 700px) {
+	.mailContainer {
 		display: none;
 	}
 }

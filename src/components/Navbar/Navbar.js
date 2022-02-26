@@ -1,4 +1,4 @@
-import { React } from 'react';
+import React from 'react';
 import img1 from '../../npicon-02.png';
 import { Nav, Navbar, Container } from 'react-bootstrap';
 import './NavBar.css';

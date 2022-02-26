@@ -30,6 +30,7 @@
 }
 
 .card {
+	display: flex;
 	border: 1px solid #f2e205 !important;
 	background-color: transparent;
 	border-radius: 0%;
