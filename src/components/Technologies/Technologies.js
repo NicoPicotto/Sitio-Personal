@@ -19,7 +19,7 @@ import './Technologies.css';
 
 const Technologies = () => {
 	return (
-		<div className='techContainer reveal' id='technologies'>
+		<div className='techContainer' id='technologies'>
 			<div className='techContent'>
 				<Fade bottom>
 					<h3 className='techText'>

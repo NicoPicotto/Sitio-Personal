@@ -50,7 +50,7 @@ const Contact = () => {
 				</Form.Group>
 
 				<Button className='submit' type='submit' onClick={() => setSub(true)}>
-					{sub ? 'Thanks for your message!' : 'Submit'}
+					{sub ? 'Thanks for your message!' : 'Submit >'}
 				</Button>
 			</Form>
 		</div>

@@ -9,21 +9,21 @@
 .aboutText {
 	display: flex;
 	flex-direction: column;
-	width: 50vw;
-	padding: 1em;
+	width: 30vw;
+
 }
 
 .aboutHeader {
 	display: flex;
 	color: rgb(162, 165, 168);
 	font-family: 'Roboto Mono', monospace;
-	font-size: 1.5vw;
+	font-size: 1.2vw;
 }
 
 .aboutName {
 	color: #f2e205 !important;
 	font-family: 'Biryani', sans-serif;
-	font-size: 7vw;
+	font-size: 5vw;
 	margin-top: 0.2em;
 }
 
@@ -31,13 +31,39 @@
 	display: flex;
 	color: rgb(162, 165, 168);
 	font-family: 'Roboto Mono', monospace;
-	font-size: 1.5vw;
+	font-size: 1.2vw;
+}
+
+.imgAboutContainer {
+	display: flex;
+	
+	outline: 1px solid #f2e205;
+	outline-offset: 1em;
+	margin-right: 2em;
+}
+
+.imgAbout{
+	width: 13vw;
+	margin-bottom: -2em;
+	margin-left: -2em;
+	z-index: 10;
+	filter: saturate(0);
+	transition: 0.3s;
+}
+
+.imgAbout:hover{
+	filter: saturate(1)
 }
 
 @media (max-width: 1000px) {
+
 	.aboutText {
 		display: flex;
-		width: 80vw;
+		width: 30vw;
+	}
+
+	.imgAbout{
+		width: 25vw;
 	}
 
 	.aboutHeader {
@@ -54,8 +80,16 @@
 }
 
 @media (max-width: 700px) {
+	.aboutContainer{
+		flex-direction: column;
+	}
 	.aboutText {
-		width: 70vw;
+		width: 60vw;
+		margin-left: 3em;
+	}
+
+	.imgAboutContainer{
+		display: none;
 	}
 
 	.aboutHeader {
@@ -63,7 +97,7 @@
 	}
 
 	.aboutName {
-		font-size: 15vw;
+		font-size: 10vw;
 	}
 
 	.aboutFooter {

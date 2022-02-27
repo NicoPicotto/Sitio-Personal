@@ -5,17 +5,18 @@
 	justify-content: space-between;
 	top: 0;
 	width: 100vw;
+	z-index: 1000;
 }
 
 .logoNP {
 	height: 2em;
-	margin-left: 1em;
+	margin-left: 0.6em;
 }
 
 .nav-link {
 	color: rgb(162, 165, 168) !important;
 	font-family: 'Roboto Mono', monospace;
-	font-size: 0.9em;
+	font-size: 0.8em;
 	margin-right: 1em;
 	transition: 0.3s ease-in-out !important;
 }
@@ -32,10 +33,6 @@
 	flex-grow: 0 !important;
 }
 
-.navbar-toggler-collapsed:focus {
-	box-shadow: 0 !important;
-	border: none !important;
-}
 
 @media (max-width: 1400px) {
 	.nav-link {
@@ -48,4 +45,11 @@
 	.nav-link:hover {
 		color: #181818 !important;
 	}
+}
+
+@media (max-width: 700px) {
+	.navBarContainer{
+		background-color: black;
+	}
+
 }

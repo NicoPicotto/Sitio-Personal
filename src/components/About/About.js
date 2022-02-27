@@ -1,10 +1,16 @@
 import { React } from 'react';
 import Fade from 'react-reveal/Fade';
+import img6 from '../../img/img6.jpg';
 import './About.css';
 
 const About = () => {
 	return (
 		<div className='aboutContainer' id='about'>
+			<Fade bottom>
+			<div className='imgAboutContainer'>
+				<img className='imgAbout' src={img6}></img>
+			</div>
+			</Fade>
 			<div className='aboutText'>
 				<Fade bottom>
 					<h3 className='aboutHeader'>Hey you! I'm...</h3>
