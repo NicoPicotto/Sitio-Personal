@@ -71,6 +71,10 @@
 	border-style: none !important;
 }
 
+.moreProyectsContainer {
+	display: none
+}
+
 @media (max-width: 1000px) {
 	.proyectContent {
 		width: 65vw;
@@ -125,6 +129,25 @@
 	}
 
 	.cardFooter {
-		font-size: 2.6vw;
+		font-size: 2.8vw;
+	}
+
+	.moreProyectsContainer {
+		display: flex;
+		margin-top: 1em;
+		flex-direction: column;
+	}
+
+	.moreProyectsContainer a{
+		text-decoration: none;
+	}
+
+	.moreContainer{
+		background-color: #f2e205;
+		color: #181818;
+		font-family: 'Roboto Mono', monospace;
+		padding: 0.5em;
+		margin-bottom: 1em;
+		font-size: 3vw;
 	}
 }

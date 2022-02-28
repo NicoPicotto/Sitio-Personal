@@ -17,8 +17,8 @@ const Proyects = () => {
 				<div className='cardTextContainer'>
 					<Fade top>
 						<h3 className='proyectText'>
-							Here are some of my proyects. You can view more by clicking on the
-							links on the left.
+							Here are some of my proyects. You can see more by clicking on the
+							icons below.
 						</h3>
 					</Fade>
 				</div>
@@ -35,7 +35,7 @@ const Proyects = () => {
 							</Card.Body>
 							<Card.Footer className='cardFooter'>
 								<small>
-									View more about this proyect{' '}
+									See more about this proyect{' '}
 									<a
 										href='https://zen-goldberg-ea3708.netlify.app/'
 										target='_blank'
@@ -70,7 +70,7 @@ const Proyects = () => {
 							</Card.Body>
 							<Card.Footer className='cardFooter'>
 								<small>
-									View more about this proyect{' '}
+									See more about this proyect{' '}
 									<a
 										href='https://amazing-mestorf-02bced.netlify.app/'
 										target='_blank'
@@ -109,7 +109,7 @@ const Proyects = () => {
 							</Card.Body>
 							<Card.Footer className='cardFooter'>
 								<small>
-									View more about this proyect{' '}
+									See more about this proyect{' '}
 									<a
 										href='https://posadadelcuartorio.000webhostapp.com/'
 										target='_blank'
@@ -145,7 +145,7 @@ const Proyects = () => {
 							</Card.Body>
 							<Card.Footer className='cardFooter'>
 								<small>
-									View more about this proyect{' '}
+									See more about this proyect{' '}
 									<a
 										href='https://gallant-bhabha-3d0f8a.netlify.app/'
 										target='_blank'
@@ -183,7 +183,7 @@ const Proyects = () => {
 							</Card.Body>
 							<Card.Footer className='cardFooter'>
 								<small>
-									View more about this proyect{' '}
+									See more about this proyect{' '}
 									<a
 										href='https://dazzling-sammet-40be4e.netlify.app/'
 										target='_blank'
@@ -218,7 +218,7 @@ const Proyects = () => {
 							</Card.Body>
 							<Card.Footer className='cardFooter'>
 								<small>
-									View more about this proyect{' '}
+									See more about this proyect{' '}
 									<a href='https://nicopicotto.com/' target='_blank'>
 										<BsDisplayFill className='seeMoreIcons' />{' '}
 									</a>
@@ -240,6 +240,20 @@ const Proyects = () => {
 					</CardGroup>
 				</Fade>
 			</div>
+			<Fade bottom cascade>
+			<div className='moreProyectsContainer'>
+				<a href='https://github.com/NicoPicotto' target='_blank'>
+				<div className='moreContainer'>
+					<BsGithub /> See more on GitHub
+				</div>
+				</a>
+				<a href='https://www.behance.net/nicolaspicotto' target='_blank'>
+				<div className='moreContainer'>
+					<BsBehance /> See more on Behance
+				</div>
+				</a>
+			</div>
+			</Fade>
 		</div>
 	);
 };
