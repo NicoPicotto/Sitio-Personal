@@ -16,7 +16,7 @@ const NavBar = () => {
 						<Nav className='me-auto my-2 my-lg-0' navbarScroll>
 							<Nav.Link href='#about'>About</Nav.Link>
 							<Nav.Link href='#technologies'>Technologies</Nav.Link>
-							<Nav.Link href='#proyects'>Proyects</Nav.Link>
+							<Nav.Link href='#proyects'>Projects</Nav.Link>
 							<Nav.Link href='#contact'>Contact</Nav.Link>
 						</Nav>
 					</Navbar.Collapse>

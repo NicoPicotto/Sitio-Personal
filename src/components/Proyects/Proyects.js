@@ -17,7 +17,7 @@ const Proyects = () => {
 				<div className='cardTextContainer'>
 					<Fade top>
 						<h3 className='proyectText'>
-							Here are some of my proyects. You can see more by clicking on the
+							Here are some of my projects. You can see more by clicking on the
 							icons below.
 						</h3>
 					</Fade>
