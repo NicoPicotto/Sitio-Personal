@@ -30,20 +30,6 @@ const Technologies = () => {
 					<Flip bottom cascade>
 						<div className='col'>
 							<li>
-								<SiAdobe color='#f2e205' /> Adobe Suite
-							</li>
-							<li>
-								<SiAdobeillustrator color='#f2e205' /> Illustrator
-							</li>
-							<li>
-								<SiAdobephotoshop color='#f2e205' /> Photoshop
-							</li>
-							<li>
-								<SiAdobexd color='#f2e205' /> Xd
-							</li>
-						</div>
-						<div className='col'>
-							<li>
 								<SiHtml5 color='#f2e205' /> HTML5
 							</li>
 							<li>
@@ -64,10 +50,24 @@ const Technologies = () => {
 								<SiReact color='#f2e205' /> ReactJs
 							</li>
 							<li>
-								<SiReactrouter color='#f2e205' /> React Router
+								<SiReact color='#f2e205' /> React Native
 							</li>
 							<li>
 								<SiRedux color='#f2e205' /> Redux
+							</li>
+						</div>
+						<div className='col'>
+							<li>
+								<SiAdobe color='#f2e205' /> Adobe Suite
+							</li>
+							<li>
+								<SiAdobeillustrator color='#f2e205' /> Illustrator
+							</li>
+							<li>
+								<SiAdobephotoshop color='#f2e205' /> Photoshop
+							</li>
+							<li>
+								<SiAdobexd color='#f2e205' /> Xd
 							</li>
 						</div>
 					</Flip>

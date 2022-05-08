@@ -135,31 +135,27 @@ const Proyects = () => {
 							<Card.Img variant='top' src={img5} className='cardImg' />
 							<Card.Body>
 								<Card.Title className='cardTitle'>
-									Personal CV Website
+									Local Council Website
 								</Card.Title>
 								<Card.Text className='cardText'>
-									Personal Curriculum Vitae type site that shows my academic
-									information, work history and skills. Created using HTML, CSS
-									and JavaScript.{' '}
+									Government website for the local council. Created using
+									ReactJs and Firestore Databse for self-management.{' '}
 								</Card.Text>
 							</Card.Body>
 							<Card.Footer className='cardFooter'>
 								<small>
 									See more about this proyect{' '}
-									<a
-										href='https://gallant-bhabha-3d0f8a.netlify.app/'
-										target='_blank'
-									>
+									<a href='https://concejocabrera.gob.ar/' target='_blank'>
 										<BsDisplayFill className='seeMoreIcons' />{' '}
 									</a>
 									<a
-										href='https://github.com/NicoPicotto/sitioPersonal'
+										href='https://github.com/NicoPicotto/concejo-deliberante'
 										target='_blank'
 									>
 										<BsGithub />
 									</a>{' '}
 									<a
-										href='https://www.behance.net/gallery/134213161/Sitio-Web-Nico-Picotto'
+										href='https://www.behance.net/gallery/141328135/Concejo-Deliberante-General-Cabrera'
 										target='_blank'
 									>
 										<BsBehance />
@@ -174,30 +170,28 @@ const Proyects = () => {
 						<Card className='card'>
 							<Card.Img variant='top' src={img7} className='cardImg' />
 							<Card.Body>
-								<Card.Title className='cardTitle'>Calculator</Card.Title>
+								<Card.Title className='cardTitle'>Travel Blog type mobile app</Card.Title>
 								<Card.Text className='cardText'>
-									100% functional calculator, with the option to change the
-									color of the interface. Created using HTML, CSS and
-									JavaScript.{' '}
+								Mobile application used to save moments. You can save text, photo and geolocation. Created using React Native, Redux, and SQLite.{' '}
 								</Card.Text>
 							</Card.Body>
 							<Card.Footer className='cardFooter'>
 								<small>
 									See more about this proyect{' '}
 									<a
-										href='https://dazzling-sammet-40be4e.netlify.app/'
+										href='https://drive.google.com/drive/folders/1GgTMvKUHgipQ6MkUB23w30aKS2MzZmwM'
 										target='_blank'
 									>
 										<BsDisplayFill className='seeMoreIcons' />{' '}
 									</a>
 									<a
-										href='https://github.com/NicoPicotto/calculadoraTest'
+										href='https://github.com/NicoPicotto/saveMomentsApp'
 										target='_blank'
 									>
 										<BsGithub />
 									</a>{' '}
 									<a
-										href='https://www.behance.net/gallery/135677751/App-Calculadora'
+										href='https://www.behance.net/gallery/143247971/Unique-Travel-Blog-App-mobile'
 										target='_blank'
 									>
 										<BsBehance />
@@ -241,18 +235,18 @@ const Proyects = () => {
 				</Fade>
 			</div>
 			<Fade bottom cascade>
-			<div className='moreProyectsContainer'>
-				<a href='https://github.com/NicoPicotto' target='_blank'>
-				<div className='moreContainer'>
-					<BsGithub /> See more on GitHub
+				<div className='moreProyectsContainer'>
+					<a href='https://github.com/NicoPicotto' target='_blank'>
+						<div className='moreContainer'>
+							<BsGithub /> See more on GitHub
+						</div>
+					</a>
+					<a href='https://www.behance.net/nicolaspicotto' target='_blank'>
+						<div className='moreContainer'>
+							<BsBehance /> See more on Behance
+						</div>
+					</a>
 				</div>
-				</a>
-				<a href='https://www.behance.net/nicolaspicotto' target='_blank'>
-				<div className='moreContainer'>
-					<BsBehance /> See more on Behance
-				</div>
-				</a>
-			</div>
 			</Fade>
 		</div>
 	);
