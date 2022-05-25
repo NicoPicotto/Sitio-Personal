@@ -41,7 +41,7 @@ const Contact = () => {
 							className='inputs'
 							type='text'
 							name='name'
-							placeholder='Nombre'
+							placeholder='Name'
 							required
 						/>
 						<Form.Control
@@ -56,7 +56,7 @@ const Contact = () => {
 							type='text'
 							name='message'
 							as='textarea'
-							placeholder='Mensaje'
+							placeholder='Message'
 							rows={5}
 							required
 						/>

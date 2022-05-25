@@ -99,31 +99,29 @@ const Proyects = () => {
 						<Card className='card'>
 							<Card.Img variant='top' src={img4} className='cardImg' />
 							<Card.Body>
-								<Card.Title className='cardTitle'>
-									Poasada del Cuarto Río
-								</Card.Title>
+								<Card.Title className='cardTitle'>Vegan Split</Card.Title>
 								<Card.Text className='cardText'>
-									Website that gathers useful resources and information about
-									the game Dungeons & Dragons. Created using HTML and CSS.{' '}
+									Mobile application that helps to divide the expenses in events
+									where there are vegans and non-vegans.{' '}
 								</Card.Text>
 							</Card.Body>
 							<Card.Footer className='cardFooter'>
 								<small>
 									See more about this proyect{' '}
 									<a
-										href='https://posadadelcuartorio.000webhostapp.com/'
+										href='https://play.google.com/store/apps/details?id=com.nicopicotto.VeganSplit'
 										target='_blank'
 									>
 										<BsDisplayFill className='seeMoreIcons' />{' '}
 									</a>
 									<a
-										href='https://github.com/NicoPicotto/posadaDelCuartoRio'
+										href='https://github.com/NicoPicotto/Vegan-Split'
 										target='_blank'
 									>
 										<BsGithub />
 									</a>{' '}
 									<a
-										href='https://www.behance.net/gallery/134211359/Sitio-Web-Posada-del-Cuarto-Rio'
+										href='https://www.behance.net/gallery/144563199/Vegan-Split-App-mobile'
 										target='_blank'
 									>
 										<BsBehance />
@@ -170,9 +168,13 @@ const Proyects = () => {
 						<Card className='card'>
 							<Card.Img variant='top' src={img7} className='cardImg' />
 							<Card.Body>
-								<Card.Title className='cardTitle'>Travel Blog type mobile app</Card.Title>
+								<Card.Title className='cardTitle'>
+									Travel Blog type mobile app
+								</Card.Title>
 								<Card.Text className='cardText'>
-								Mobile application used to save moments. You can save text, photo and geolocation. Created using React Native, Redux, and SQLite.{' '}
+									Mobile application used to save moments. You can save text,
+									photo and geolocation. Created using React Native, Redux, and
+									SQLite.{' '}
 								</Card.Text>
 							</Card.Body>
 							<Card.Footer className='cardFooter'>
