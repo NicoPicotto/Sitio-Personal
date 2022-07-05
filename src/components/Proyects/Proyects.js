@@ -25,6 +25,76 @@ const Proyects = () => {
 				<Fade bottom cascade>
 					<CardGroup className='groupContainer'>
 						<Card className='card'>
+							<Card.Img variant='top' src={img4} className='cardImg' />
+							<Card.Body>
+								<Card.Title className='cardTitle'>Vegan Split</Card.Title>
+								<Card.Text className='cardText'>
+									Mobile app that helps to divide the expenses in events where
+									there are vegans and non-vegans. Created with React Native.{' '}
+								</Card.Text>
+							</Card.Body>
+							<Card.Footer className='cardFooter'>
+								<small>
+									See more about this proyect{' '}
+									<a
+										href='https://play.google.com/store/apps/details?id=com.nicopicotto.VeganSplit'
+										target='_blank'
+									>
+										<BsDisplayFill className='seeMoreIcons' />{' '}
+									</a>
+									<a
+										href='https://github.com/NicoPicotto/Vegan-Split'
+										target='_blank'
+									>
+										<BsGithub />
+									</a>{' '}
+									<a
+										href='https://www.behance.net/gallery/144563199/Vegan-Split-App-mobile'
+										target='_blank'
+									>
+										<BsBehance />
+									</a>
+								</small>
+							</Card.Footer>
+						</Card>
+						<Card className='card'>
+							<Card.Img variant='top' src={img7} className='cardImg' />
+							<Card.Body>
+								<Card.Title className='cardTitle'>De Paso</Card.Title>
+								<Card.Text className='cardText'>
+									Mobile app that to saves your moments. You can set text, photo
+									and geolocation. Created with React Native, Redux, and SQLite.{' '}
+								</Card.Text>
+							</Card.Body>
+							<Card.Footer className='cardFooter'>
+								<small>
+									See more about this proyect{' '}
+									<a
+										href='https://apps.apple.com/app/id1629212811'
+										target='_blank'
+									>
+										<BsDisplayFill className='seeMoreIcons' />{' '}
+									</a>
+									<a
+										href='https://github.com/NicoPicotto/saveMomentsApp'
+										target='_blank'
+									>
+										<BsGithub />
+									</a>{' '}
+									<a
+										href='https://www.behance.net/gallery/143247971/Unique-Travel-Blog-App-mobile'
+										target='_blank'
+									>
+										<BsBehance />
+									</a>
+								</small>
+							</Card.Footer>
+						</Card>
+					</CardGroup>
+				</Fade>
+				<Fade bottom cascade>
+					<CardGroup className='groupContainer'>
+						<Card className='card'>
 							<Card.Img variant='top' src={img2} className='cardImg' />
 							<Card.Body>
 								<Card.Title className='cardTitle'>Pinturerías Norte</Card.Title>
@@ -50,78 +120,6 @@ const Proyects = () => {
 									</a>{' '}
 									<a
 										href='https://www.behance.net/gallery/134212771/Sitio-Web-Pinturerias-Norte'
-										target='_blank'
-									>
-										<BsBehance />
-									</a>
-								</small>
-							</Card.Footer>
-						</Card>
-						<Card className='card'>
-							<Card.Img variant='top' src={img3} className='cardImg' />
-							<Card.Body>
-								<Card.Title className='cardTitle'>
-									Karina Aguirre's Art Workshop
-								</Card.Title>
-								<Card.Text className='cardText'>
-									E-commerce for local artist & educator, using HTML, CSS and
-									JavaScript.{' '}
-								</Card.Text>
-							</Card.Body>
-							<Card.Footer className='cardFooter'>
-								<small>
-									See more about this proyect{' '}
-									<a
-										href='https://amazing-mestorf-02bced.netlify.app/'
-										target='_blank'
-									>
-										<BsDisplayFill className='seeMoreIcons' />{' '}
-									</a>
-									<a
-										href='https://github.com/NicoPicotto/tallerArteKarinaAguirre'
-										target='_blank'
-									>
-										<BsGithub />
-									</a>{' '}
-									<a
-										href='https://www.behance.net/gallery/134212265/Sitio-Web-Karina-Aguirre-Taller-de-Arte'
-										target='_blank'
-									>
-										<BsBehance />
-									</a>
-								</small>
-							</Card.Footer>
-						</Card>
-					</CardGroup>
-				</Fade>
-				<Fade bottom cascade>
-					<CardGroup className='groupContainer'>
-						<Card className='card'>
-							<Card.Img variant='top' src={img4} className='cardImg' />
-							<Card.Body>
-								<Card.Title className='cardTitle'>Vegan Split</Card.Title>
-								<Card.Text className='cardText'>
-									Mobile application that helps to divide the expenses in events
-									where there are vegans and non-vegans.{' '}
-								</Card.Text>
-							</Card.Body>
-							<Card.Footer className='cardFooter'>
-								<small>
-									See more about this proyect{' '}
-									<a
-										href='https://play.google.com/store/apps/details?id=com.nicopicotto.VeganSplit'
-										target='_blank'
-									>
-										<BsDisplayFill className='seeMoreIcons' />{' '}
-									</a>
-									<a
-										href='https://github.com/NicoPicotto/Vegan-Split'
-										target='_blank'
-									>
-										<BsGithub />
-									</a>{' '}
-									<a
-										href='https://www.behance.net/gallery/144563199/Vegan-Split-App-mobile'
 										target='_blank'
 									>
 										<BsBehance />
@@ -166,34 +164,33 @@ const Proyects = () => {
 				<Fade bottom cascade>
 					<CardGroup className='groupContainer'>
 						<Card className='card'>
-							<Card.Img variant='top' src={img7} className='cardImg' />
+							<Card.Img variant='top' src={img3} className='cardImg' />
 							<Card.Body>
 								<Card.Title className='cardTitle'>
-									Travel Blog type mobile app
+									Karina Aguirre's Art Workshop
 								</Card.Title>
 								<Card.Text className='cardText'>
-									Mobile application used to save moments. You can save text,
-									photo and geolocation. Created using React Native, Redux, and
-									SQLite.{' '}
+									E-commerce for local artist & educator. Created with HTML, CSS
+									and JavaScript.{' '}
 								</Card.Text>
 							</Card.Body>
 							<Card.Footer className='cardFooter'>
 								<small>
 									See more about this proyect{' '}
 									<a
-										href='https://drive.google.com/drive/folders/1GgTMvKUHgipQ6MkUB23w30aKS2MzZmwM'
+										href='https://amazing-mestorf-02bced.netlify.app/'
 										target='_blank'
 									>
 										<BsDisplayFill className='seeMoreIcons' />{' '}
 									</a>
 									<a
-										href='https://github.com/NicoPicotto/saveMomentsApp'
+										href='https://github.com/NicoPicotto/tallerArteKarinaAguirre'
 										target='_blank'
 									>
 										<BsGithub />
 									</a>{' '}
 									<a
-										href='https://www.behance.net/gallery/143247971/Unique-Travel-Blog-App-mobile'
+										href='https://www.behance.net/gallery/134212265/Sitio-Web-Karina-Aguirre-Taller-de-Arte'
 										target='_blank'
 									>
 										<BsBehance />
@@ -208,8 +205,8 @@ const Proyects = () => {
 									Personal Portfolio
 								</Card.Title>
 								<Card.Text className='cardText'>
-									Personal portfolio that shows my skills and proyects Created
-									using ReactJs, React Bootstrap, React Icons and React Reveal.{' '}
+									Personal portfolio that shows my skills and proyects. Created
+									with ReactJs, React Bootstrap, React Icons and React Reveal.{' '}
 								</Card.Text>
 							</Card.Body>
 							<Card.Footer className='cardFooter'>
