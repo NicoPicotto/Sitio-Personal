@@ -13,6 +13,7 @@ import {
 	SiReactrouter,
 	SiRedux,
 } from 'react-icons/si';
+import { BsWordpress } from "react-icons/bs"
 import Flip from 'react-reveal/Flip';
 import Fade from 'react-reveal/Fade';
 import './Technologies.css';
@@ -58,7 +59,7 @@ const Technologies = () => {
 						</div>
 						<div className='col'>
 							<li>
-								<SiAdobe color='#f2e205' /> Adobe Suite
+								<BsWordpress color='#f2e205' /> Wordpress
 							</li>
 							<li>
 								<SiAdobeillustrator color='#f2e205' /> Illustrator

@@ -29,13 +29,13 @@ const Proyects = () => {
 							<Card.Body>
 								<Card.Title className='cardTitle'>Vegan Split</Card.Title>
 								<Card.Text className='cardText'>
-									Mobile app that helps to divide the expenses in events where
-									there are vegans and non-vegans. Created with React Native.{' '}
+									Mobile app that helps to divide the expenses between vegans
+									and non-vegans. Created with React Native.{' '}
 								</Card.Text>
 							</Card.Body>
 							<Card.Footer className='cardFooter'>
 								<small>
-									See more about this proyect{' '}
+									See more about this project{' '}
 									<a
 										href='https://play.google.com/store/apps/details?id=com.nicopicotto.VeganSplit'
 										target='_blank'
@@ -62,13 +62,13 @@ const Proyects = () => {
 							<Card.Body>
 								<Card.Title className='cardTitle'>De Paso</Card.Title>
 								<Card.Text className='cardText'>
-									Mobile app that to saves your moments. You can set text, photo
+									Mobile app that saves your moments. You can set text, photo
 									and geolocation. Created with React Native, Redux, and SQLite.{' '}
 								</Card.Text>
 							</Card.Body>
 							<Card.Footer className='cardFooter'>
 								<small>
-									See more about this proyect{' '}
+									See more about this project{' '}
 									<a
 										href='https://apps.apple.com/app/id1629212811'
 										target='_blank'
@@ -105,7 +105,7 @@ const Proyects = () => {
 							</Card.Body>
 							<Card.Footer className='cardFooter'>
 								<small>
-									See more about this proyect{' '}
+									See more about this project{' '}
 									<a
 										href='https://zen-goldberg-ea3708.netlify.app/'
 										target='_blank'
@@ -140,7 +140,7 @@ const Proyects = () => {
 							</Card.Body>
 							<Card.Footer className='cardFooter'>
 								<small>
-									See more about this proyect{' '}
+									See more about this project{' '}
 									<a href='https://concejocabrera.gob.ar/' target='_blank'>
 										<BsDisplayFill className='seeMoreIcons' />{' '}
 									</a>
@@ -166,31 +166,26 @@ const Proyects = () => {
 						<Card className='card'>
 							<Card.Img variant='top' src={img3} className='cardImg' />
 							<Card.Body>
-								<Card.Title className='cardTitle'>
-									Karina Aguirre's Art Workshop
-								</Card.Title>
+								<Card.Title className='cardTitle'>Cleanergy</Card.Title>
 								<Card.Text className='cardText'>
-									E-commerce for local artist & educator. Created with HTML, CSS
-									and JavaScript.{' '}
+									Website for a sustainable energy company. Created with ReactJs
+									and Chakra UI.{' '}
 								</Card.Text>
 							</Card.Body>
 							<Card.Footer className='cardFooter'>
 								<small>
-									See more about this proyect{' '}
-									<a
-										href='https://amazing-mestorf-02bced.netlify.app/'
-										target='_blank'
-									>
+									See more about this project{' '}
+									<a href='https://cleanergy.com.ar/' target='_blank'>
 										<BsDisplayFill className='seeMoreIcons' />{' '}
 									</a>
 									<a
-										href='https://github.com/NicoPicotto/tallerArteKarinaAguirre'
+										href='https://github.com/NicoPicotto/Cleanergy-Web'
 										target='_blank'
 									>
 										<BsGithub />
 									</a>{' '}
 									<a
-										href='https://www.behance.net/gallery/134212265/Sitio-Web-Karina-Aguirre-Taller-de-Arte'
+										href='https://www.behance.net/gallery/155720771/Cleanergy-Renovables'
 										target='_blank'
 									>
 										<BsBehance />
@@ -202,27 +197,21 @@ const Proyects = () => {
 							<Card.Img variant='top' src={img8} className='cardImg' />
 							<Card.Body>
 								<Card.Title className='cardTitle'>
-									Personal Portfolio
+									Magnolia Blanquería
 								</Card.Title>
 								<Card.Text className='cardText'>
-									Personal portfolio that shows my skills and proyects. Created
-									with ReactJs, React Bootstrap, React Icons and React Reveal.{' '}
+									E-commerce for a company that sells home products. Created
+									with Wordpress, Woocommerce and Elementor.{' '}
 								</Card.Text>
 							</Card.Body>
 							<Card.Footer className='cardFooter'>
 								<small>
 									See more about this proyect{' '}
-									<a href='https://nicopicotto.com/' target='_blank'>
+									<a href='https://magnoliablanqueria.com/' target='_blank'>
 										<BsDisplayFill className='seeMoreIcons' />{' '}
 									</a>
 									<a
-										href='https://github.com/NicoPicotto/newWebSite'
-										target='_blank'
-									>
-										<BsGithub />
-									</a>{' '}
-									<a
-										href='https://www.behance.net/gallery/138319307/Sitio-Web-Personal-Nico-Picotto'
+										href='https://www.behance.net/gallery/157455903/Magnolia-Blanqueria'
 										target='_blank'
 									>
 										<BsBehance />

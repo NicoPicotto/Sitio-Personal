@@ -7,26 +7,31 @@ import './Contact.css';
 const Contact = () => {
 	const [sub, setSub] = useState(false);
 
-		const form = useRef();
+	const form = useRef();
 
-		const sendEmail = (e) => {
-		  e.preventDefault();
-	  
-		  emailjs.sendForm('service_qa7giba', 'template_a1kfy0y', form.current, 'cZtBUVEwTm1-DRtsb')
-			.then((result) => {
-				console.log(result.text);
-			}, (error) => {
-				console.log(error.text);
-			});
-		};
-	  
+	const sendEmail = (e) => {
+		e.preventDefault();
+
+		emailjs
+			.sendForm(
+				'service_qa7giba',
+				'template_a1kfy0y',
+				form.current,
+				'cZtBUVEwTm1-DRtsb'
+			)
+			.then(
+				(result) => {
+					console.log(result.text);
+				},
+				(error) => {
+					console.log(error.text);
+				}
+			);
+	};
 
 	return (
 		<div className='formContainer' id='contact'>
-			<Form
-				className='formInside'
-				ref={form} onSubmit={sendEmail}
-			>
+			<Form className='formInside' ref={form} onSubmit={sendEmail}>
 				<Fade bottom>
 					<h4 className='formTitle'>Get in touch!</h4>
 				</Fade>
@@ -63,7 +68,12 @@ const Contact = () => {
 					</Fade>
 				</Form.Group>
 
-				<Button className='submit' value="send" type='submit' onClick={() => setSub(true)}>
+				<Button
+					className='submit'
+					value='send'
+					type='submit'
+					onClick={() => setSub(true)}
+				>
 					{sub ? 'Thanks for your message!' : 'Submit >'}
 				</Button>
 			</Form>
