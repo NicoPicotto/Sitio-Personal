@@ -9,7 +9,7 @@ const Footer = () => {
 			<div className='footerContainer'>
 				<h3 className='footerText'>
 					{' '}
-					Created with ReactJs <SiReact color='#f2e205' /> Thanks for visiting!
+					Created with ReactJs <SiReact color='#5777F7' /> Thanks for visiting!
 				</h3>
 			</div>
 		</Fade>

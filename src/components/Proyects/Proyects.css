@@ -23,15 +23,15 @@
 .proyectText {
 	display: flex;
 	padding: 0.2em;
-	color: #181818;
+	color: #141B38;
 	font-family: 'Roboto Mono', monospace;
 	font-size: 1.3vw;
-	background-color: #f2e205;
+	background-color: #5777F7;
 }
 
 .card {
 	display: flex;
-	border: 1px solid #f2e205 !important;
+	border: 1px solid #5777F7 !important;
 	background-color: transparent;
 	border-radius: 0%;
 	margin: 0.5em !important;
@@ -40,7 +40,7 @@
 .cardTitle {
 	font-family: 'Roboto Mono', monospace;
 	font-size: 1.1vw;
-	color: #f2e205;
+	color: #5777F7;
 }
 
 .cardText {
@@ -50,8 +50,8 @@
 }
 
 .cardFooter {
-	color: #181818 !important;
-	background-color: #f2e205;
+	color: #141B38 !important;
+	background-color: #5777F7;
 	font-family: 'Roboto Mono', monospace;
 	font-size: 0.8vw;
 	font-weight: 600;
@@ -60,14 +60,14 @@
 
 .cardFooter a {
 	text-decoration: none !important;
-	color: #181818 !important;
+	color: #141B38 !important;
 }
 
 .btnProyects {
 	margin-top: 2em;
-	background-color: #f2e205;
+	background-color: #5777F7;
 	font-family: 'Roboto Mono', monospace;
-	color: #181818 !important;
+	color: #141B38 !important;
 	border-style: none !important;
 }
 
@@ -143,8 +143,8 @@
 	}
 
 	.moreContainer{
-		background-color: #f2e205;
-		color: #181818;
+		background-color: #5777F7;
+		color: #141B38;
 		font-family: 'Roboto Mono', monospace;
 		padding: 0.5em;
 		margin-bottom: 1em;

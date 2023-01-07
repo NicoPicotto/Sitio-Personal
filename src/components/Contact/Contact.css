@@ -21,10 +21,10 @@
 	display: flex;
 	width: fit-content;
 	padding: 0.2em;
-	color: #181818;
+	color: #141b38;
 	font-family: 'Roboto Mono', monospace;
 	font-size: 1.3vw;
-	background-color: #f2e205;
+	background-color: #5777f7;
 	font-weight: 500;
 }
 
@@ -35,17 +35,17 @@
 .inputs {
 	margin-top: 1em;
 	background-color: transparent;
-	color: #f2e205;
+	color: #5777f7;
 	font-size: 1.1vw;
 	border-radius: 0;
 	outline: none;
-	border: 1px solid rgb(162, 165, 168) !important;
+	border: 1px solid lightgray !important;
 }
 
 .inputs:focus {
 	background-color: transparent !important;
-	border: 1px solid #f2e205 !important;
-	color: #f2e205;
+	border: 1px solid #5777f7 !important;
+	color: lightgray;
 	outline: 0 !important;
 	box-shadow: none !important;
 }
@@ -57,22 +57,22 @@
 	margin: 0 !important;
 	border-radius: 0;
 	font-family: 'Roboto Mono', monospace;
-	background-color: rgb(162, 165, 168);
+	background-color: lightgray;
 	border: none;
-	color: #181818;
-	box-shadow: inset 0 0 0 0 #f2e205;
+	color: #141b38;
+	box-shadow: inset 0 0 0 0 #5777f7;
 }
 
 .submit:hover {
-	color: #181818;
-	box-shadow: inset 500px 0 0 0 #f2e205;
-	background-color: rgb(162, 165, 168);
+	color: #141b38;
+	box-shadow: inset 500px 0 0 0 #5777f7;
+	background-color: #969696;
 }
 
 .submit:focus {
-	color: #181818;
-	box-shadow: inset 500px 0 0 0 #f2e205;
-	background-color: rgb(162, 165, 168);
+	color: #141b38;
+	box-shadow: inset 500px 0 0 0 #5777f7;
+	background-color: lightgray;
 }
 
 @media (max-width: 1000px) {

@@ -7,6 +7,8 @@ import img4 from '../../img/img4.jpg';
 import img5 from '../../img/img5.jpg';
 import img7 from '../../img/img7.jpg';
 import img8 from '../../img/img8.jpg';
+import img9 from '../../img/img9.jpg';
+import img10 from '../../img/img10.jpg';
 import Fade from 'react-reveal/Fade';
 import './Proyects.css';
 
@@ -18,7 +20,7 @@ const Proyects = () => {
 					<Fade top>
 						<h3 className='proyectText'>
 							Here are some of my projects. You can see more by clicking on the
-							icons below.
+							links below each one.
 						</h3>
 					</Fade>
 				</div>
@@ -212,6 +214,76 @@ const Proyects = () => {
 									</a>
 									<a
 										href='https://www.behance.net/gallery/157455903/Magnolia-Blanqueria'
+										target='_blank'
+									>
+										<BsBehance />
+									</a>
+								</small>
+							</Card.Footer>
+						</Card>
+					</CardGroup>
+				</Fade>
+				<Fade bottom cascade>
+					<CardGroup className='groupContainer'>
+						<Card className='card'>
+							<Card.Img variant='top' src={img9} className='cardImg' />
+							<Card.Body>
+								<Card.Title className='cardTitle'>
+									Posada del cuarto Río
+								</Card.Title>
+								<Card.Text className='cardText'>
+									Dungeons and Dragons fan site. It contains multiple resources
+									regarding the classic game. Created with HTML and CSS.{' '}
+								</Card.Text>
+							</Card.Body>
+							<Card.Footer className='cardFooter'>
+								<small>
+									See more about this project{' '}
+									<a
+										href='https://inquisitive-wisp-ba2eea.netlify.app/'
+										target='_blank'
+									>
+										<BsDisplayFill className='seeMoreIcons' />{' '}
+									</a>
+									<a
+										href='https://github.com/NicoPicotto/Posada-Cuarto-Rio-Web'
+										target='_blank'
+									>
+										<BsGithub />
+									</a>{' '}
+									<a
+										href='https://www.behance.net/gallery/134211359/Sitio-Web-Posada-del-Cuarto-Rio'
+										target='_blank'
+									>
+										<BsBehance />
+									</a>
+								</small>
+							</Card.Footer>
+						</Card>
+						<Card className='card'>
+							<Card.Img variant='top' src={img10} className='cardImg' />
+							<Card.Body>
+								<Card.Title className='cardTitle'>Wedding web-app</Card.Title>
+								<Card.Text className='cardText'>
+									Modern invitation to a wedding. You can find all the
+									information regarding the event. Created with ReactJs and
+									Chakra UI.{' '}
+								</Card.Text>
+							</Card.Body>
+							<Card.Footer className='cardFooter'>
+								<small>
+									See more about this project{' '}
+									<a href='https://nicoyro.vercel.app/' target='_blank'>
+										<BsDisplayFill className='seeMoreIcons' />{' '}
+									</a>
+									<a
+										href='https://github.com/NicoPicotto/Picotzilda-Web'
+										target='_blank'
+									>
+										<BsGithub />
+									</a>{' '}
+									<a
+										href='https://www.behance.net/gallery/160725037/Invitacion-boda-Nico-Ro'
 										target='_blank'
 									>
 										<BsBehance />

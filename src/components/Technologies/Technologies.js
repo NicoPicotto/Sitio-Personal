@@ -31,44 +31,44 @@ const Technologies = () => {
 					<Flip bottom cascade>
 						<div className='col'>
 							<li>
-								<SiHtml5 color='#f2e205' /> HTML5
+								<SiHtml5 color='#5777F7' /> HTML5
 							</li>
 							<li>
-								<SiCss3 color='#f2e205' /> CSS3
+								<SiCss3 color='#5777F7' /> CSS3
 							</li>
 							<li>
-								<SiSass color='#f2e205' /> SASS
+								<SiSass color='#5777F7' /> SASS
 							</li>
 							<li>
-								<SiBootstrap color='#f2e205' /> Bootstrap
-							</li>
-						</div>
-						<div className='col'>
-							<li>
-								<SiJavascript color='#f2e205' /> Javascript
-							</li>
-							<li>
-								<SiReact color='#f2e205' /> ReactJs
-							</li>
-							<li>
-								<SiReact color='#f2e205' /> React Native
-							</li>
-							<li>
-								<SiRedux color='#f2e205' /> Redux
+								<SiBootstrap color='#5777F7' /> Bootstrap
 							</li>
 						</div>
 						<div className='col'>
 							<li>
-								<BsWordpress color='#f2e205' /> Wordpress
+								<SiJavascript color='#5777F7' /> Javascript
 							</li>
 							<li>
-								<SiAdobeillustrator color='#f2e205' /> Illustrator
+								<SiReact color='#5777F7' /> ReactJs
 							</li>
 							<li>
-								<SiAdobephotoshop color='#f2e205' /> Photoshop
+								<SiReact color='#5777F7' /> React Native
 							</li>
 							<li>
-								<SiAdobexd color='#f2e205' /> Xd
+								<SiRedux color='#5777F7' /> Redux
+							</li>
+						</div>
+						<div className='col'>
+							<li>
+								<BsWordpress color='#5777F7' /> Wordpress
+							</li>
+							<li>
+								<SiAdobeillustrator color='#5777F7' /> Illustrator
+							</li>
+							<li>
+								<SiAdobephotoshop color='#5777F7' /> Photoshop
+							</li>
+							<li>
+								<SiAdobexd color='#5777F7' /> Xd
 							</li>
 						</div>
 					</Flip>

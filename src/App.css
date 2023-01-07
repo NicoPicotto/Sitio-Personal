@@ -3,35 +3,21 @@
 }
 
 ::-webkit-scrollbar-thumb {
-	background-color: #f2e205;
-	border-radius: 100vw
+	background-color: #5777F7;
+	border-radius: 100vw;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-	background-color: #bdb000;
+	background-color: #3152d6;
 }
 
 ::-webkit-scrollbar-track {
-	background: #2c2c2c;
+	background: #141B38;
 }
 
 body {
-	background: linear-gradient(-45deg, rgb(0, 0, 0), #2c2c2c, #000000, #0e0e0e);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+	background-color: #141B38 !important;
 	overflow-x: hidden;
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
 }
 
 @media (max-width: 800px) {

@@ -14,13 +14,13 @@
 
 .aboutHeader {
 	display: flex;
-	color: rgb(162, 165, 168);
+	color: #969696;
 	font-family: 'Roboto Mono', monospace;
 	font-size: 1.2vw;
 }
 
 .aboutName {
-	color: #f2e205 !important;
+	color: #5777f7 !important;
 	font-family: 'Biryani', sans-serif;
 	font-size: 5vw;
 	margin-top: 0.2em;
@@ -28,14 +28,14 @@
 
 .aboutFooter {
 	display: flex;
-	color: rgb(162, 165, 168);
+	color: #969696;
 	font-family: 'Roboto Mono', monospace;
 	font-size: 1.2vw;
 }
 
 .imgAboutContainer {
 	display: flex;
-	outline: 3px solid #f2e205;
+	outline: 3px solid #5777f7;
 	margin-right: 2em;
 	border-radius: 100%;
 	transition: 0.3s;

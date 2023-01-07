@@ -13,14 +13,14 @@ ul {
 
 li {
 	cursor: pointer;
-	color: rgb(162, 165, 168);
+	color: #969696;
 	margin-bottom: 1em;
 	font-size: 1.2em;
 	transition: 0.3s ease-in-out;
 }
 
 li:hover {
-	color: #f2e205 !important;
+	color: white !important;
 }
 
 @media (max-width: 1000px) {
